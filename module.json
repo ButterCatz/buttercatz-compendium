@@ -171,5 +171,5 @@
     ],
     "url": "https://github.com/ButterCatz/buttercatz-compendium",
     "manifest": "https://raw.githubusercontent.com/ButterCatz/buttercatz-compendium/main/module.json",
-    "download": "https://github.com/ButterCatz/buttercatz-compendium/releases/latest/download/buttercatz-compendium.zip"
+    "download": "https://github.com/ButterCatz/buttercatz-compendium/archive/refs/tags/0.1.zip"
 }
