@@ -1,0 +1,174 @@
+{
+    "id": "buttercatz-compendium",
+    "title": "ButterCatz翻譯包",
+    "description": "ButterCatz的DnD5e中文化包",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "authors": [
+        {
+            "name": "ButterCatz",
+            "discord": "ButterCatz#0001",
+            "flags": {}
+        }
+    ],
+    "packs": [
+        {
+            "name": "backgrounds",
+            "label": "背景",
+            "path": "packs/backgrounds",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "species",
+            "label": "種族",
+            "path": "packs/species",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "classes",
+            "label": "職業",
+            "path": "packs/classes",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "subclasses",
+            "label": "子職業",
+            "path": "packs/subclasses",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "class-features",
+            "label": "職業特性",
+            "path": "packs/classes-features",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "items",
+            "label": "物品",
+            "path": "packs/items",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "goods",
+            "label": "貿易物品",
+            "path": "packs/goods",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "spells",
+            "label": "法術",
+            "path": "packs/spells",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "characters",
+            "label": "角色",
+            "path": "packs/characters",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "monsters",
+            "label": "怪物",
+            "path": "packs/monsters",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "ButterCatz翻譯包",
+            "sorting": "m",
+            "color": "#228b22",
+            "folders": [
+                {
+                    "name": "角色特性",
+                    "sorting": "m",
+                    "color": "#228b22",
+                    "packs": [
+                        "backgrounds",
+                        "species",
+                        "classes",
+                        "subclasses",
+                        "class-features"
+                    ]
+                },
+                {
+                    "name": "物品和法術",
+                    "sorting": "m",
+                    "color": "#228b22",
+                    "packs": ["items", "goods", "spells"]
+                },
+                {
+                    "name": "生物",
+                    "sorting": "m",
+                    "color":"#228b22",
+                    "packs": ["characters", "monsters"]
+                }
+            ]
+        }
+    ],
+    "url": "https://github.com/ButterCatz/buttercatz-compendium",
+    "manifest": "https://raw.githubusercontent.com/ButterCatz/buttercatz-compendium/main/module.json"
+}
